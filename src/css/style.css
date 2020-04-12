@@ -5,3 +5,7 @@
 body{
     font-family: "trebuchet MS", helvetica, sans-serif;
 }
+
+.format_div {
+    align-items: center;
+}
