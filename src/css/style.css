@@ -7,17 +7,18 @@
 body{
     font-family: "trebuchet MS", helvetica, sans-serif;
 }
-/**/
+/*Define a cor de fundo do header*/
+.header_background { 
+    background-color: #EEE9E9;
+}
+/*Espaçamentos da logo sobre a borda da area do navegador*/
 .format_logo {
     margin-left: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-/**/
-.header_background { 
-    background-color: #EEE9E9;
-}
-/**/
+
+/*Definindo propriedade da fonte do menu*/
 .format_style_navBar { 
     font-family: "trebuchet MS", helvetica, sans-serif;
     font-size: 16px;
@@ -25,14 +26,14 @@ body{
     margin-top: 0px;
     margin-left: 20px;    
 }
-/**/
-li {
-    padding-left: 140px;
-    margin-top: 80px;
-}
-/**/
+/*Cor do botão de menu*/
 li, a {
     padding-top: 0px;
     color: #FF69B4
     ;
 }
+/*Efeito para descer o menu de Produtos somento passando o mouse por cima*/
+.dropdown:hover>.dropdown-menu { 
+    display: block; 
+}
+/**/
