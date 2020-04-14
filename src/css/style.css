@@ -8,8 +8,9 @@ body{
     font-family: "trebuchet MS", helvetica, sans-serif;
 }
 /*Define a cor de fundo do header*/
-.header_background { 
+header { 
     background-color: #EEE9E9;
+    
 }
 /*Espaçamentos da logo sobre a borda da area do navegador*/
 .format_logo {
@@ -35,5 +36,9 @@ li, a {
 /*Efeito para descer o menu de Produtos somento passando o mouse por cima*/
 .dropdown:hover>.dropdown-menu { 
     display: block; 
+}
+
+.capa{
+    text-align: center;
 }
 /**/
