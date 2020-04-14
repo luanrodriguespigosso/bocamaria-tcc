@@ -33,12 +33,10 @@ li, a {
     color: #FF69B4
     ;
 }
-/*Efeito para descer o menu de Produtos somento passando o mouse por cima*/
-.dropdown:hover>.dropdown-menu { 
-    display: block; 
-}
-
 .capa{
     text-align: center;
 }
-/**/
+/*
+.imagem-carrossel { 
+    object-fit: cover;
+}*/
