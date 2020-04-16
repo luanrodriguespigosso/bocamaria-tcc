@@ -1,17 +1,15 @@
-/*Zerando todas as formatações pré definida pelos navegadores*/
-*{
-    margin: 0;
-    padding: 0;
-}
-/*Utilizando fonte Trebuchet para todo o conteudo do site*/
+
+/*Definindo background do site*/
 body{
-    font-family: "trebuchet MS", helvetica, sans-serif;
+    background: url(..src/img/BG.png);
+    background-attachment: fixed;
 }
-/*Define a cor de fundo do header*/
-header { 
-    background-color: #EEE9E9;
-    
+/*Definindo tranparencia a barra de navegação do topo*/
+nav.navbar-transparencia{
+    background:rgba(255,105,180,0.6);
+    padding: 2px 0px;
 }
+
 /*Espaçamentos da logo sobre a borda da area do navegador*/
 .format_logo {
     margin-left: 50px;
@@ -30,12 +28,22 @@ header {
 /*Cor do botão de menu*/
 li, a {
     padding-top: 0px;
-    color: #FF69B4
-    ;
+    color: black;
 }
+/*alinhamento do texto carousel*/
 .capa{
     text-align: center;
 }
+#home{
+    padding-top: 180px;
+}
+
+.divisor{
+    width: 1px;
+    background: black;
+    margin: 12px 15px;
+}
+
 /*
 .imagem-carrossel { 
     object-fit: cover;
