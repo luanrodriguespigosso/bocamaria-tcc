@@ -3,6 +3,7 @@
 body{
     background: url(..src/img/BG.png);
     background-attachment: fixed;
+    font-family: "trebuchet MS", helvetica, sans-serif;
 }
 /*Definindo tranparencia a barra de navegação do topo*/
 nav.navbar-transparencia{
@@ -48,3 +49,10 @@ li, a {
 .imagem-carrossel { 
     object-fit: cover;
 }*/
+
+/*Style sobre.html*/
+hr{
+    border-color:rgba(255,105,180,0.6);
+    box-sizing:border-box;
+    width:100%;  
+}
