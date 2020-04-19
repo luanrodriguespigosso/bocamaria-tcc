@@ -51,7 +51,10 @@ li, a {
 }*/
 
 /*Style sobre.html*/
-hr{
+.backgroud-sobre {
+    background-image: url(../img/BG.png);
+}
+div, hr{
     border-color:rgba(255,105,180,0.6);
     box-sizing:border-box;
     width:100%;  
