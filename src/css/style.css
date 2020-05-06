@@ -1,3 +1,14 @@
+/*Para dispositivos com width menor que 768px*/
+body {
+    padding-top: 146px;
+}
+  
+/*Para dispositivos com width maior ou igual a 768px*/
+@media (min-width: 768px) {
+    body {
+        padding-top: 146px;
+    }
+}
 
 /*Definindo background do site*/
 body{
@@ -57,5 +68,9 @@ li, a {
 div, hr{
     border-color:rgba(255,105,180,0.6);
     box-sizing:border-box;
-    width:100%;  
+    /*width:100%;*/  
+}
+/*css utilizado na pagina carousel.html teste*/
+.carousel-inner img {
+    width: 100%;
 }
