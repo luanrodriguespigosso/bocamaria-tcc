@@ -1,3 +1,7 @@
+<?php 
+  session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -73,9 +77,15 @@
             <h2>Gostaria de conhecer nossos produtos?</h2>
           </div>
         </div>
-        <form>
+        <?php 
+          if(isset($_SESSION['msg'])) {
+            echo $_SESSION['msg'];
+            unset($_SESSION['msg']);
+          }
+        ?>
+        <form method="POST" action="salva_msg.php">
           <div class="form-group">
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite seu email">
+            <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite seu email">
             <small id="emailHelp" class="form-text text-muted">Não compartilhamos informações nem spam!</small>
           </div>
           <button type="submit" class="btn btn-danger">Enviar</button>
