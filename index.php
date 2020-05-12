@@ -48,17 +48,17 @@
     <div id="demo" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img id="img-size" src="./src/img/carousel/batom-01.jpg" alt="">
+          <img id="img-size" src="./src/img/carousel/carousel1.png" alt="">
           <div class="carousel-caption">
           </div>   
         </div>
         <div class="carousel-item">
-          <img id="img-size" src="./src/img/carousel/mulher-batom-vermelho.jpg" alt="geralt">
+          <img id="img-size" src="./src/img/carousel/carousel2.png" alt="geralt">
           <div class="carousel-caption">
           </div>   
         </div>
         <div class="carousel-item">
-          <img id="img-size" src="./src/img/carousel/lapis-dourado.jpg" alt="">
+          <img id="img-size" src="./src/img/carousel/carousel3.png" alt="">
           <div class="carousel-caption">
           </div>   
         </div>
