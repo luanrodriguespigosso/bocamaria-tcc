@@ -70,6 +70,11 @@
         <span class="carousel-control-next-icon"></span>
       </a>
     </div>
+    <div class="container-fluid"><!--banner promoção-->
+      <figure class="banner-rule">
+        <img class="img-fluid" src="./src/img/banner/banner-regua-site.webp" alt="">
+      </figure>
+    </div> <!--banner promoção-->
     <section> <!--formulário para divulgar produtos-->
       <div class="container">
         <div class="row text-danger">

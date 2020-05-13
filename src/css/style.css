@@ -8,12 +8,24 @@ body {
         width: 100%;
         height: 644px;
     }
+    .banner-rule {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
 }
 /*Para dispositivos com width 979px ou menor*/
 @media only screen and (max-width: 979px) {
     #img-size {
         width: 100%;
         height: 544px;
+    }
+    .banner-rule {
+        margin-top: 15px;
+        text-align: center;
+    }
+    .banner-size {
+        width: 100%;
     }
 }  
 /*Para dispositivos com width 767px ou menor*/
@@ -22,12 +34,26 @@ body {
         width: 100%;
         height: 444px;
     }
+    .banner-rule {
+        margin-top: 15px;
+        text-align: center;
+    }
+    .banner-size {
+        width: 100%;
+    }
 }
 /*Para dispositivos com width 480px ou menor*/
 @media only screen and (max-width: 480px){
     #img-size {
         width: 100%;
         height: 344px;
+    }
+    .banner-rule {
+        margin-top: 15px;
+        text-align: center;
+    }
+    .banner-size {
+        width: 100%;
     }
 }
 
