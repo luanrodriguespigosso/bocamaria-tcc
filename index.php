@@ -22,10 +22,10 @@
 </head>
 
 <body>
-  <header class="fixed-top"><!--inicio do cabecalhoOOOO-->
+  <header class="fixed-top"><!--inicio do cabecalho-->
     <nav class="navbar navbar-expand-lg navbar-light navbar-transparencia">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="index.php">
           <img src="./src/img/logo_bocamaria.png" width="132">
         </a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#id-principal">
@@ -33,7 +33,7 @@
         </button>
         <div class="collapse navbar-collapse" id="id-principal">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a href="gloss.html" class="nav-link">Produtos</a></li>
+            <li class="nav-item"><a href="#product" class="nav-link">Produtos</a></li>
             <li class="nav-item divisor"></li>
             <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre</a></li>
             <li class="nav-item divisor"></li>
@@ -75,8 +75,32 @@
         <img class="img-fluid" src="./src/img/banner/banner-regua-site.webp" alt="">
       </figure>
     </div> <!--banner promoção-->
+    <section id="product">
+      <div class="container" style="margin-top: 100px;">
+        <div class="row">
+          <div class="col align-self-start">
+            <picture>
+              <img src="./src/img/produtos/img_batom_vermelho.jpg" style="width: 350px; height: 350px;" class="img-fluid rounded mx-auto d-block" alt="">
+            </picture>  
+          </div>
+          <div class="col-sm align-self-center">
+            <p class="text-center"><strong>Lorem Ipsum</strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          </div>
+        </div>
+        <div class="row" style="margin-top: 50px;"> 
+          <div class="col-sm align-self-center">
+            <p class="text-center"><strong>Lorem Ipsum</strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          </div>
+          <div class="col align-self-end">
+            <picture>
+              <img src="./src/img/produtos/batom_liquido_nude.jpg" style="width: 350px; height: 350px;" class="img-fluid rounded mx-auto d-block" alt="">
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
     <section> <!--formulário para divulgar produtos-->
-      <div class="container">
+      <div class="container" style="margin-top: 100px;">
         <div class="row text-danger">
           <div class="col-md-12 align-center">
             <h2>Gostaria de conhecer nossos produtos?</h2>
