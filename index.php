@@ -84,12 +84,18 @@
             </picture>  
           </div>
           <div class="col-sm align-self-center">
-            <p class="text-center"><strong>Lorem Ipsum</strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <p class="text-center"><strong>Não existe pele perfeita...</strong><br>Agora existe! <br>Conheça o novo 
+            corretivo facial que a <i>Bocamaria</i> desenvolveu pra você, elaborado com óleo de calêndula e alecrim
+            uniformiza o tom da pele suavizando linhas de expressão.
+           <br><strong>Nada melhor que uma pele perfeita para destacar os olhos, boca e auto estima.</strong></p>
           </div>
         </div>
         <div class="row" style="margin-top: 50px;"> 
           <div class="col-sm align-self-center">
-            <p class="text-center"><strong>Lorem Ipsum</strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <p class="text-center">Cada estação do ano pede um cuidado especial para nossa pele.
+            Preocupada com isso a <i>Bocamaria</i> desenvolveu hidratantes enriquecidos com manteiga de buriti que 
+            embelezam e tratam seus lábios o ano todo... 
+            <strong>Tenha lábios aveludados nos 365 dias do ano.</strong></p>
           </div>
           <div class="col align-self-end">
             <picture>
