@@ -59,16 +59,13 @@ body {
 
 /*Definindo background do site*/
 body{
-    background: url(..src/img/BG.png);
-    background-attachment: fixed;
     font-family: "trebuchet MS", helvetica, sans-serif;
 }
 /*Definindo tranparencia a barra de navegação do topo*/
 nav.navbar-transparencia{
-    background:rgba(255,105,180,0.6);
+    background:rgb(253, 137, 195);
     padding: 2px 0px;
 }
-
 /*Espaçamentos da logo sobre a borda da area do navegador*/
 .format_logo {
     margin-left: 50px;
@@ -89,14 +86,14 @@ li, a {
     padding-top: 0px;
     color: black;
 }
-/*alinhamento do texto carousel*/
+/*alinhamento do texto carousel
 .capa{
     text-align: center;
 }
 #home{
     padding-top: 180px;
 }
-
+*/
 .divisor{
     width: 1px;
     background: black;
@@ -108,16 +105,35 @@ li, a {
     object-fit: cover;
 }*/
 
-/*Style sobre.html*/
+/*Style sobre.html
 .backgroud-sobre {
     background-image: url(../img/BG.png);
-}
+}*/
+/*
 div, hr{
-    border-color:rgba(255,105,180,0.6);
+    border-color:rgb(253, 137, 195);
     box-sizing:border-box;
-    /*width:100%;*/  
-}
+    width:100%;  
+}*/
 /*css utilizado na pagina carousel.html teste*/
 .carousel-inner img {
     width: 100%;
+}
+/*home*/
+#home {
+    height: 100vh;
+    width: 100vw;
+}
+/*products*/
+#products {
+    height: 100vh;
+    width: 100vw;
+}
+/*about*/
+#about {
+    height: 100vh;
+    width: 100vw;
+}
+.about-background {
+    background-color: rgb(253, 137, 195);
 }

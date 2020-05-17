@@ -35,7 +35,7 @@
           <ul class="navbar-nav ml-auto">
             <li class="nav-item"><a href="#product" class="nav-link">Produtos</a></li>
             <li class="nav-item divisor"></li>
-            <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">Sobre</a></li>
             <li class="nav-item divisor"></li>
             <li class="nav-item"><a href="#" class="nav-link">contato</a></li>
           </ul>
@@ -45,36 +45,38 @@
   </header><!--fim do cabecalho-->
 
   <main>
-    <div id="demo" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img id="img-size" src="./src/img/carousel/carousel1.png" alt="">
-          <div class="carousel-caption">
-          </div>   
+    <section id="home">
+      <div id="demo" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img id="img-size" src="./src/img/carousel/carousel1.png" alt="">
+            <div class="carousel-caption">
+            </div>   
+          </div>
+          <div class="carousel-item">
+            <img id="img-size" src="./src/img/carousel/carousel2.png" alt="geralt">
+            <div class="carousel-caption">
+            </div>   
+          </div>
+          <div class="carousel-item">
+            <img id="img-size" src="./src/img/carousel/carousel3.png" alt="">
+            <div class="carousel-caption">
+            </div>   
+          </div>
         </div>
-        <div class="carousel-item">
-          <img id="img-size" src="./src/img/carousel/carousel2.png" alt="geralt">
-          <div class="carousel-caption">
-          </div>   
-        </div>
-        <div class="carousel-item">
-          <img id="img-size" src="./src/img/carousel/carousel3.png" alt="">
-          <div class="carousel-caption">
-          </div>   
-        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
       </div>
-      <a class="carousel-control-prev" href="#demo" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </a>
-      <a class="carousel-control-next" href="#demo" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </a>
-    </div>
-    <div class="container-fluid"><!--banner promoção-->
-      <figure class="banner-rule">
-        <img class="img-fluid" src="./src/img/banner/banner-regua-site.webp" alt="">
-      </figure>
-    </div> <!--banner promoção-->
+      <div class="container-fluid"><!--banner promoção-->
+        <figure class="banner-rule">
+          <img class="img-fluid" src="./src/img/banner/banner-regua-site.webp" alt="">
+        </figure>
+      </div> <!--banner promoção-->
+  </section>
     <section id="product">
       <div class="container" style="margin-top: 100px;">
         <div class="row">
@@ -101,6 +103,20 @@
             <picture>
               <img src="./src/img/produtos/batom_liquido_nude.jpg" style="width: 350px; height: 350px;" class="img-fluid rounded mx-auto d-block" alt="">
             </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about-dimensions about-background">
+      <div class="container" style="margin-top: 80px;">
+        <div class="row justify-content-center">
+          <div class="col-lg-2">
+            <h1 class="text-center">Sobre</h1>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-9">
+            <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
           </div>
         </div>
       </div>
