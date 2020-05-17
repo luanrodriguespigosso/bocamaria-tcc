@@ -33,7 +33,7 @@
         </button>
         <div class="collapse navbar-collapse" id="id-principal">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a href="#product" class="nav-link">Produtos</a></li>
+            <li class="nav-item"><a href="#products" class="nav-link">Produtos</a></li>
             <li class="nav-item divisor"></li>
             <li class="nav-item"><a href="#about" class="nav-link">Sobre</a></li>
             <li class="nav-item divisor"></li>
@@ -77,8 +77,8 @@
         </figure>
       </div> <!--banner promoção-->
   </section>
-    <section id="product">
-      <div class="container" style="margin-top: 100px;">
+    <section id="products">
+      <div class="container">
         <div class="row">
           <div class="col align-self-start">
             <picture>
@@ -92,7 +92,7 @@
            <br><strong>Nada melhor que uma pele perfeita para destacar os olhos, boca e auto estima.</strong></p>
           </div>
         </div>
-        <div class="row" style="margin-top: 50px;"> 
+        <div class="row"> 
           <div class="col-sm align-self-center">
             <p class="text-center">Cada estação do ano pede um cuidado especial para nossa pele.
             Preocupada com isso a <i>Bocamaria</i> desenvolveu hidratantes enriquecidos com manteiga de buriti que 
@@ -108,7 +108,7 @@
       </div>
     </section>
     <section id="about" class="about-dimensions about-background">
-      <div class="container" style="margin-top: 80px;">
+      <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-2">
             <h1 class="text-center">Sobre</h1>
