@@ -1,7 +1,7 @@
-/*Para dispositivos com width menor que 768px*/
+/*Para dispositivos com width menor que 768px
 body {
     padding-top: 77px;
-}
+}*/
 /*Para dispositivos com width 1920px ou menor*/
 @media only screen and (max-width: 1920px){
     #img-size {
@@ -60,6 +60,10 @@ body {
 /*Definindo background do site*/
 body{
     font-family: "trebuchet MS", helvetica, sans-serif;
+}
+header {
+    position: fixed;
+    top: 0;
 }
 /*Definindo tranparencia a barra de navegação do topo*/
 nav.navbar-transparencia{
