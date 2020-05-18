@@ -6,7 +6,7 @@ body {
 @media only screen and (max-width: 1920px){
     #img-size {
         width: 100%;
-        height: 644px;
+        height: 500px;
     }
     .banner-rule {
         margin-top: 50px;
@@ -18,7 +18,7 @@ body {
 @media only screen and (max-width: 979px) {
     #img-size {
         width: 100%;
-        height: 544px;
+        height: 400px;
     }
     .banner-rule {
         margin-top: 15px;
@@ -32,7 +32,7 @@ body {
 @media only screen and (max-width: 767px) {
     #img-size {
         width: 100%;
-        height: 444px;
+        height: 300px;
     }
     .banner-rule {
         margin-top: 15px;
@@ -46,7 +46,7 @@ body {
 @media only screen and (max-width: 480px){
     #img-size {
         width: 100%;
-        height: 344px;
+        height: 300px;
     }
     .banner-rule {
         margin-top: 15px;
@@ -56,8 +56,7 @@ body {
         width: 100%;
     }
 }
-
-/*Definindo background do site*/
+/*Font Web-Site*/
 body{
     font-family: "trebuchet MS", helvetica, sans-serif;
 }
@@ -76,10 +75,8 @@ nav.navbar-transparencia{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
 /*Definindo propriedade da fonte do menu*/
 .format_style_navBar { 
-    font-family: "trebuchet MS", helvetica, sans-serif;
     font-size: 16px;
     font-weight: bold;
     margin-top: 0px;
@@ -103,7 +100,6 @@ li, a {
     background: black;
     margin: 12px 15px;
 }
-
 /*
 .imagem-carrossel { 
     object-fit: cover;
@@ -119,6 +115,7 @@ div, hr{
     box-sizing:border-box;
     width:100%;  
 }*/
+
 /*css utilizado na pagina carousel.html teste*/
 .carousel-inner img {
     width: 100%;
@@ -131,7 +128,6 @@ div, hr{
 }
 /*products*/
 #products {
-    height: 100vh;
     width: 100vw;
     background-color: green;
 }
@@ -140,6 +136,13 @@ div, hr{
     height: 100vh;
     width: 100vw;
 }
+/*Identificar cada pagina -  APAGAR DEPOIS*/
 .about-background {
     background-color: rgb(253, 137, 195);
+}
+/*Centralizando conteudo about*/
+.content-products-center, .content-about-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

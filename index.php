@@ -22,7 +22,7 @@
 </head>
 
 <body>
-  <header class="fixed-top"><!--inicio do cabecalho-->
+  <header class="fixed-top">
     <nav class="navbar navbar-expand-lg navbar-light navbar-transparencia">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.php">
@@ -42,7 +42,7 @@
           </div>
       </div>
     </nav>
-  </header><!--fim do cabecalho-->
+  </header>
 
   <main>
     <section id="home">
@@ -70,15 +70,42 @@
         <a class="carousel-control-next" href="#demo" data-slide="next">
           <span class="carousel-control-next-icon"></span>
         </a>
-      </div>
+      </div>   
       <div class="container-fluid"><!--banner promoção-->
         <figure class="banner-rule">
           <img class="img-fluid" src="./src/img/banner/banner-regua-site.webp" alt="">
         </figure>
       </div> <!--banner promoção-->
+    
   </section>
-    <section id="products">
+    <section id="products" class="content-products-center">
       <div class="container">
+        <div class="row">
+          <div class="col align-self-start">
+            <picture>
+              <img src="./src/img/produtos/img_batom_vermelho.jpg" style="width: 350px; height: 350px;" class="img-fluid rounded mx-auto d-block" alt="">
+            </picture>  
+          </div>
+          <div class="col-sm align-self-center">
+            <p class="text-center"><strong>Não existe pele perfeita...</strong><br>Agora existe! <br>Conheça o novo 
+            corretivo facial que a <i>Bocamaria</i> desenvolveu pra você, elaborado com óleo de calêndula e alecrim
+            uniformiza o tom da pele suavizando linhas de expressão.
+           <br><strong>Nada melhor que uma pele perfeita para destacar os olhos, boca e auto estima.</strong></p>
+          </div>
+        </div>
+        <div class="row"> 
+          <div class="col-sm align-self-center">
+            <p class="text-center">Cada estação do ano pede um cuidado especial para nossa pele.
+            Preocupada com isso a <i>Bocamaria</i> desenvolveu hidratantes enriquecidos com manteiga de buriti que 
+            embelezam e tratam seus lábios o ano todo... 
+            <strong>Tenha lábios aveludados nos 365 dias do ano.</strong></p>
+          </div>
+          <div class="col align-self-end">
+            <picture>
+              <img src="./src/img/produtos/batom_liquido_nude.jpg" style="width: 350px; height: 350px;" class="img-fluid rounded mx-auto d-block" alt="">
+            </picture>
+          </div>
+        </div>
         <div class="row">
           <div class="col align-self-start">
             <picture>
@@ -107,7 +134,7 @@
         </div>
       </div>
     </section>
-    <section id="about" class="about-dimensions about-background">
+    <section id="about" class="content-about-center about-background">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-2">
