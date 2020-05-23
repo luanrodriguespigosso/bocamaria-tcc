@@ -49,7 +49,7 @@
       <div id="demo" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img id="img-size" src="./src/img/carousel/carousel1.png" alt="">
+            <img id="img-size" src="./src/img/carousel/carousel-01.png" alt="">
             <div class="carousel-caption">
             </div>   
           </div>
