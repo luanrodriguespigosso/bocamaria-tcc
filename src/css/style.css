@@ -1,7 +1,7 @@
-/*Para dispositivos com width menor que 768px
-body {
+/*Para dispositivos com width menor que 768px*/
+main {
     padding-top: 77px;
-}*/
+}
 /*Para dispositivos com width 1920px ou menor*/
 @media only screen and (max-width: 1920px){
     #img-size {
@@ -18,7 +18,7 @@ body {
 @media only screen and (max-width: 979px) {
     #img-size {
         width: 100%;
-        height: 400px;
+        height: 350px;
     }
     .banner-rule {
         margin-top: 15px;
