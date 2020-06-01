@@ -1,148 +1,217 @@
-/*Para dispositivos com width menor que 768px*/
-main {
-    padding-top: 77px;
-}
-/*Para dispositivos com width 1920px ou menor*/
-@media only screen and (max-width: 1920px){
-    #img-size {
-        width: 100%;
-        height: 500px;
-    }
-    .banner-rule {
-        margin-top: 50px;
-        margin-bottom: 50px;
-        text-align: center;
-    }
-}
-/*Para dispositivos com width 979px ou menor*/
-@media only screen and (max-width: 979px) {
-    #img-size {
-        width: 100%;
-        height: 350px;
-    }
-    .banner-rule {
-        margin-top: 15px;
-        text-align: center;
-    }
-    .banner-size {
-        width: 100%;
-    }
-}  
-/*Para dispositivos com width 767px ou menor*/
-@media only screen and (max-width: 767px) {
-    #img-size {
-        width: 100%;
-        height: 300px;
-    }
-    .banner-rule {
-        margin-top: 15px;
-        text-align: center;
-    }
-    .banner-size {
-        width: 100%;
-    }
-}
-/*Para dispositivos com width 480px ou menor*/
-@media only screen and (max-width: 480px){
-    #img-size {
-        width: 100%;
-        height: 300px;
-    }
-    .banner-rule {
-        margin-top: 15px;
-        text-align: center;
-    }
-    .banner-size {
-        width: 100%;
-    }
-}
-/*Font Web-Site*/
+/*layout*/
+
 body{
-    font-family: "trebuchet MS", helvetica, sans-serif;
-}
-header {
-    position: fixed;
+    background: url(../img/BG.png);
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-size: 100%;
+    overflow: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
     top: 0;
 }
-/*Definindo tranparencia a barra de navegação do topo*/
-nav.navbar-transparencia{
-    background:rgb(253, 137, 195);
-    padding: 2px 0px;
-}
-/*Espaçamentos da logo sobre a borda da area do navegador*/
-.format_logo {
-    margin-left: 50px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-/*Definindo propriedade da fonte do menu*/
-.format_style_navBar { 
-    font-size: 16px;
-    font-weight: bold;
-    margin-top: 0px;
-    margin-left: 20px;    
-}
-/*Cor do botão de menu*/
-li, a {
-    padding-top: 0px;
-    color: black;
-}
-/*alinhamento do texto carousel
-.capa{
-    text-align: center;
-}
-#home{
-    padding-top: 180px;
-}
-*/
-.divisor{
-    width: 1px;
-    background: black;
-    margin: 12px 15px;
-}
-/*
-.imagem-carrossel { 
-    object-fit: cover;
-}*/
 
-/*Style sobre.html
-.backgroud-sobre {
-    background-image: url(../img/BG.png);
-}*/
-/*
-div, hr{
-    border-color:rgb(253, 137, 195);
-    box-sizing:border-box;
-    width:100%;  
-}*/
+header{
+    margin-bottom: 107px;
+}
 
-/*css utilizado na pagina carousel.html teste*/
 .carousel-inner img {
     width: 100%;
 }
-/*home*/
-#home {
-    height: 100vh;
-    width: 100vw;
-    background-color: yellow;
+
+html, body, #home{
+    height: 100%;
 }
-/*products*/
-#products {
-    width: 100vw;
-    background-color: green;
+
+/*Barra de navegação*/
+
+nav.navbar-color{
+    padding: 15px 0;
+    background: rgb(253, 137, 195)
 }
-/*about*/
-#about {
-    height: 100vh;
-    width: 100vw;
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    font-weight: bold;
 }
-/*Identificar cada pagina -  APAGAR DEPOIS*/
-.about-background {
-    background-color: rgb(253, 137, 195);
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: black;
+    font-weight: bold;
 }
-/*Centralizando conteudo about*/
-.content-products-center, .content-about-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.navbar-light .navbar-toggler {
+    color: rgba(255, 255, 255, 0.5);
+    border-color: rgb(253, 137, 195);
 }
+
+.divisor{
+    width: 1px;
+    background: white;
+    margin: 15px 12px;
+}
+
+/*capa*/
+
+.capa{
+    text-align: center;
+}
+
+/*Tipografia*/
+
+h1{
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color:rgb(92, 8, 57);
+    font-size: 5em;
+}
+
+h6{
+    color: rgb(216, 105, 160);
+    font-weight: 900;
+    font-size: 2em;
+    letter-spacing: -0.04em;
+}
+
+/*Estrutura de conteúdos*/
+
+#products{
+    background: white;
+    padding: 20px;
+    margin: 0 80px;
+    box-shadow: 10px 10px 5px rgb(216, 105, 160);
+}
+
+#products .row{
+    padding-bottom: 80px;
+}
+
+#products p{
+    line-height: 3;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#products a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    color:rgb(216, 105, 160);
+}
+
+#products a:hover{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(92, 8, 57);
+}
+
+#sobre h1{
+    text-align: center;
+}
+
+#sobre p{
+    line-height: 3;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    text-shadow:2px 2px 5px rgb(92, 8, 57);
+}
+
+/*Formulário*/
+
+#form{
+    padding: 20px;
+    margin: 80px;
+    background: white;
+    box-shadow: 10px 10px 5px rgb(216, 105, 160);
+}
+
+.btn-custom{
+    color: rgb(92, 8, 57);
+    border-radius: 500px;
+    background: rgb(216, 105, 160);
+    -webkit-border-radius:500px;
+    -moz-border-radius:500px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 1px 2px rgba(92, 8, 57, 0.15);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.btn-custom:hover{
+    color: rgb(92, 8, 57);
+    border-radius: 500px;
+    background: rgb(216, 105, 160);
+    border: 2px solid rgb(92, 8, 57);
+    -webkit-border-radius:500px;
+    -moz-border-radius:500px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    box-shadow: 12px 15px 20px rgba(92, 8, 57, 0.5);
+    transition:all 0.3s ease;
+}
+
+/*Rodapé*/
+
+footer{
+    background:rgb(253, 137, 195);
+    padding: 50px 0 20px 0;
+}
+
+footer h4{
+    color: black;
+    text-shadow:2px 2px 5px rgba(92, 8, 57, 0.5);
+    font-size: 0.8em;
+}
+
+footer .navbar-nav a{
+    text-decoration: none;
+    font-size: 0.8em;
+    color: rgb(92, 8, 57);
+}
+
+footer .navbar-nav a:hover{
+    text-decoration: none;
+    font-size: 1em;
+    color: rgb(119, 9, 73);
+    text-shadow: 2px 2px 5px rgba(92, 8, 57, 0.7);
+    transition: all 0.3s ease;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    float: right;
+    margin: 0 10px;
+}
+
+footer ul i{
+    font-size: 80px;
+    color: rgb(92, 8, 57);
+}
+
+/*Media-queries*/
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
