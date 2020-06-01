@@ -91,7 +91,7 @@
                 <div class="col-md-6"><!--Imagem 1-->
                     <div class="row"><!--row-->
                         <div class="col-md-6">
-                            <img src="src/img/produtos/img_batom_vermelho.jpg" class="img-fluid d-none d-md-block">
+                            <img src="src/img/produtos/corretivo-facial.png" class="img-fluid d-none d-md-block">
                        </div>
                     </div><!--/row-->
                 </div><!--/Imagem 1-->
