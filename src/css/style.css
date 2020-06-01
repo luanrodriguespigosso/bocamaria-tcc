@@ -185,6 +185,20 @@ footer .navbar-nav a:hover{
     transition: all 0.3s ease;
 }
 
+footer .rede-social a{
+    text-decoration: none;
+    font-size: 0.8em;
+    color: rgb(92, 8, 57);
+}
+
+footer .rede-social a:hover{
+    text-decoration: none;
+    font-size: 1em;
+    color: rgb(119, 9, 73);
+    text-shadow: 2px 2px 5px rgba(92, 8, 57, 0.7);
+    transition: all 0.3s ease;
+}
+
 footer ul{
     list-style: none;
 }

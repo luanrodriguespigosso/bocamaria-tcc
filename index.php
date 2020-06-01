@@ -194,7 +194,7 @@
                 </div><!--devs-->
 
                 <div class="col-md-4"><!--redes sociais-->
-                    <ul>
+                    <ul class="rede-social">
                         <li><a href="#"><i class="fab fa-facebook fa-3x"></i></a></li>
                         <li><a href="#"><i class="fab fa-instagram-square fa-3x"></i></a></li>
                         <li><a href="#"><i class="fab fa-twitter fa-3x"></i></a></li>
