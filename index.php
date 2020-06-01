@@ -73,11 +73,11 @@
                         <span class="carousel-control-next-icon"></span>
                       </a>
                     </div>   
-                    <div class="container-fluid"><!--banner promoção-->
+                    <!--<div class="container-fluid">
                       <figure class="banner-rule">
                         <img class="img-fluid" src="./src/img/banner/banner-regua-site.webp" alt="">
                       </figure>
-                    </div> <!--banner promoção-->
+                    </div>banner promoção-->
                     
                    </div>
                 </div>
