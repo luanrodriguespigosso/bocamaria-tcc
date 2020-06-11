@@ -23,7 +23,7 @@
     <header><!-- inicio cabeçalho -->
         <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-color">
             <div class="container">
-                <a href="index.html" class="navbar-brand">
+                <a href="index.php" class="navbar-brand">
                     <img src="src/img/logo_bocamaria.png" width="142" alt="imagem logo">
                 </a>
 
