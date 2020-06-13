@@ -15,8 +15,9 @@
     <script src="https://kit.fontawesome.com/5772977e9f.js" crossorigin="anonymous"></script>
     <!--import pag style-->
     <link rel="stylesheet" href="src/css/style.css">
-  
-    <!--<script src="./src/js/index.js"></script>-->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@8/dist/sweetalert2.css">
+    <script type="module" src="./src/js/index.js"></script>
     
 </head>
 <body>

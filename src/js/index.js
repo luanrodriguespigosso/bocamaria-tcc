@@ -1,4 +1,7 @@
-let = 'email';
-email = "mls@gmail.com";
+import Swal from 'https://cdn.jsdelivr.net/npm/sweetalert2@8/src/sweetalert2.js'
 
-alert(`Projeto academico,\ncaso tenha se intressado entre em contato no ${email}`)
+Swal.fire(
+    '',
+    'Este site faz parte de projeto acadêmico e não contém fins lucrativos',
+    'info'
+)
