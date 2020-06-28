@@ -1,7 +1,8 @@
 /*layout*/
 
 body{
-    background: url(../img/BG.png);
+    /*background: url(../img/BG.png);*/
+    background-color: rgb(255, 184, 220);
     background-repeat: repeat-y;
     background-attachment: fixed;
     background-size: 100%;
