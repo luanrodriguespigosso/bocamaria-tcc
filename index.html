@@ -1,6 +1,6 @@
-<?php 
-  session_start();
-?>
+<!--<?php 
+    session_start();
+?>-->
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -49,38 +49,34 @@
         <div class="container align-self-center"><!--container-->
             <div class="row"><!--Row-->
                 <div class="col-md-12 capa">
-                   <div class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                          <img id="img-size" src="./src/img/carousel/carousel-01.png" alt="">
-                          <div class="carousel-caption">
-                          </div>   
+                    <div class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img id="img-size" src="./src/img/carousel/carousel-01.png" alt="">
+                                <div class="carousel-caption"></div>   
+                            </div>
+                            <div class="carousel-item">
+                                <img id="img-size" src="./src/img/carousel/carousel2.png" alt="geralt">
+                                <div class="carousel-caption"></div>   
+                            </div>
+                            <div class="carousel-item">
+                                <img id="img-size" src="./src/img/carousel/carousel3.png" alt="">
+                                <div class="carousel-caption"></div>   
+                            </div>
                         </div>
-                        <div class="carousel-item">
-                          <img id="img-size" src="./src/img/carousel/carousel2.png" alt="geralt">
-                          <div class="carousel-caption">
-                          </div>   
-                        </div>
-                        <div class="carousel-item">
-                          <img id="img-size" src="./src/img/carousel/carousel3.png" alt="">
-                          <div class="carousel-caption">
-                          </div>   
-                        </div>
-                      </div>
-                      <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                      </a>
-                      <a class="carousel-control-next" href="#demo" data-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                      </a>
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
                     </div>   
                     <!--<div class="container-fluid">
-                      <figure class="banner-rule">
-                        <img class="img-fluid" src="./src/img/banner/banner-regua-site.webp" alt="">
-                      </figure>
+                        <figure class="banner-rule">
+                            <img class="img-fluid" src="./src/img/banner/banner-regua-site.webp" alt="">
+                        </figure>
                     </div>banner promoção-->
                     
-                   </div>
                 </div>
             </div><!--/Row-->
         </div><!--/container-->
@@ -93,7 +89,7 @@
                     <div class="row"><!--row-->
                         <div class="col-md-6">
                             <img src="src/img/produtos/corretivo-facial.png" class="img-fluid d-none d-md-block">
-                       </div>
+                        </div>
                     </div><!--/row-->
                 </div><!--/Imagem 1-->
 
@@ -122,7 +118,7 @@
                     <div class="row"><!--row-->
                         <div class="col-md-6">
                             <img src="src/img/produtos/hidratanteLabial.jpg" class="img-fluid d-none d-md-block">
-                       </div>
+                        </div>
                     </div><!--/row-->
                 </div><!--/Imagem 2-->
 
@@ -148,26 +144,27 @@
 
     <section id="form"> <!--formulário-->
         <div class="container">
-          <div class="row text-danger">
-            <div class="col-md-12">
-              <h6>Gostaria de conhecer nossos produtos?</h6>
+            <div class="row text-danger">
+                <div class="col-md-12">
+                <h6>Gostaria de conhecer nossos produtos?</h6>
+                </div>
             </div>
-          </div>
-          <?php 
-            if(isset($_SESSION['msg'])) {
-              echo $_SESSION['msg'];
-              unset($_SESSION['msg']);
-            }
-          ?>
-          <form method="POST" action="salva_msg.php">
-            <div class="form-group">
-              <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite seu email">
-              <small id="emailHelp" class="form-text text-muted">Não compartilhamos informações nem spam!</small>
-            </div>
-            <button type="submit" class="btn btn-lg btn-custom hoverable">Enviar</button>
-          </form>
+            <!--<?php 
+                if(isset($_SESSION['msg'])) {
+                echo $_SESSION['msg'];
+                unset($_SESSION['msg']);
+                }
+            ?>-->
+            <!-- action="salva_msg.php"-->
+            <form method="POST" action="index.html">
+                <div class="form-group">
+                <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite seu email">
+                <small id="emailHelp" class="form-text text-muted">Não compartilhamos informações nem spam!</small>
+                </div>
+                <button type="submit" class="btn btn-lg btn-custom hoverable">Enviar</button>
+            </form>
         </div>
-      </section><!--/formulário-->
+    </section><!--/formulário-->
 
     <footer><!---footer-->
         <div class="container"><!--container-->
@@ -186,12 +183,12 @@
                 </div><!--/info cabeçalho-->
 
                 <div class="col-md-2"><!--devs-->
-                   <h4>DESENVOLVEDORES</h4>
-                    <ul class="navbar-nav">
-                        <li><a href="#">Maristela Peglo</a></li>
-                        <li><a href="#">Luan Rodrigues</a></li>
-                        <li><a href="#">Silvano Dias Jr.</a></li>
-                    </ul>
+                    <h4>DESENVOLVEDORES</h4>
+                        <ul class="navbar-nav">
+                            <li><a href="#">Maristela Peglo</a></li>
+                            <li><a href="#">Luan Rodrigues</a></li>
+                            <li><a href="#">Silvano Dias Jr.</a></li>
+                        </ul>
                 </div><!--devs-->
 
                 <div class="col-md-4"><!--redes sociais-->
