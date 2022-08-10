@@ -1,232 +1,251 @@
 /*layout*/
 
-body{
-    /*background: url(../img/BG.png);*/
-    background-color: rgb(255, 184, 220);
-    background-repeat: repeat-y;
-    background-attachment: fixed;
-    background-size: 100%;
-    overflow: auto;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header{
-    margin-bottom: 107px;
+:root {
+  font-size: 62.5%;
+
+  --ff-primary: "Roboto", sans-serif;
+  --bg-primary: hsl(330, 100%, 86%);
+  --bg-secondary: hsl(330, 97%, 76%);
+  --text-link: hsl(255, 255%, 255%);
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  list-style: none;
+  color: var(--text-link);
+}
+
+body {
+  font-family: var(--ff-primary);
+  font-weight: normal;
+  font-size: 1.6rem;
+  background: var(--bg-primary);
+}
+
+header {
+  background: var(--bg-secondary);
+}
+
+.navbar {
+  width: 100%;
+  height: 8.8rem;
+}
+
+.navbar-brand > figure {
+  max-width: 12rem;
 }
 
 .carousel-inner img {
-    width: 100%;
-}
-
-html, body, #home{
-    height: 100%;
+  width: 100%;
+  height: auto;
 }
 
 /*Barra de navegação*/
 
-nav.navbar-color{
-    padding: 15px 0;
-    background: rgb(253, 137, 195)
-}
-
-.navbar-light .navbar-nav .nav-link{
-    color: white;
-    font-weight: bold;
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-weight: bold;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: black;
-    font-weight: bold;
+  color: black;
+  font-weight: bold;
 }
 
 .navbar-light .navbar-toggler {
-    color: rgba(255, 255, 255, 0.5);
-    border-color: rgb(253, 137, 195);
-}
-
-.divisor{
-    width: 1px;
-    background: white;
-    margin: 15px 12px;
+  color: rgba(255, 255, 255, 0.5);
+  border-color: rgb(253, 137, 195);
 }
 
 /*capa*/
 
-.capa{
-    text-align: center;
+.capa {
+  text-align: center;
 }
 
 /*Tipografia*/
 
-h1{
-    font-weight: 900;
-    letter-spacing: -0.05em;
-    margin-bottom: 50px;
-    color:rgb(92, 8, 57);
-    font-size: 5em;
+h1 {
+  font-weight: 900;
+  letter-spacing: -0.05rem;
+  margin-bottom: 5rem;
+  color: rgb(92, 8, 57);
+  font-size: 6.4rem;
 }
 
-h6{
-    color: rgb(216, 105, 160);
-    font-weight: 900;
-    font-size: 2em;
-    letter-spacing: -0.04em;
+h6 {
+  color: rgb(216, 105, 160);
+  font-weight: 900;
+  font-size: 2rem;
+  letter-spacing: -0.04rem;
 }
 
 /*Estrutura de conteúdos*/
 
-#products{
-    background: white;
-    padding: 20px;
-    margin: 0 80px;
-    box-shadow: 10px 10px 5px rgb(216, 105, 160);
+#products {
+  background: white;
+  padding: 2rem;
+  margin: 0 8rem;
+  box-shadow: 1rem 1rem 0.5rem rgb(216, 105, 160);
 }
 
-#products .row{
-    padding-bottom: 80px;
+#products .row {
+  padding-bottom: 8rem;
 }
 
-#products p{
-    line-height: 3;
-    font-weight: 500;
-    font-size: 20px;
+#products p {
+  line-height: 3;
+  font-weight: 500;
+  font-size: 2rem;
 }
 
-#products a{
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 20px;
-    color:rgb(216, 105, 160);
+#products a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 2rem;
+  color: rgb(216, 105, 160);
 }
 
-#products a:hover{
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 20px;
-    color: rgb(92, 8, 57);
+#products a:hover {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 2rem;
+  color: rgb(92, 8, 57);
 }
 
-#sobre h1{
-    text-align: center;
+#sobre h1 {
+  text-align: center;
 }
 
-#sobre p{
-    line-height: 3;
-    font-weight: 500;
-    font-size: 20px;
-    color: white;
-    text-shadow:2px 2px 5px rgb(92, 8, 57);
+#sobre p {
+  line-height: 3;
+  font-weight: 500;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 0.2rem 0.2rem 0.5rem rgb(92, 8, 57);
 }
 
 /*Formulário*/
 
-#form{
-    padding: 20px;
-    margin: 80px;
-    background: white;
-    box-shadow: 10px 10px 5px rgb(216, 105, 160);
+#form {
+  padding: 2rem;
+  margin: 8rem;
+  background: white;
+  box-shadow: 1rem 1rem 0.5rem rgb(216, 105, 160);
 }
 
-.btn-custom{
-    color: rgb(92, 8, 57);
-    border-radius: 500px;
-    background: rgb(216, 105, 160);
-    -webkit-border-radius:500px;
-    -moz-border-radius:500px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    padding: 10px 15px;
-    overflow: hidden;
-    position: relative;
-    box-shadow: 0 1px 2px rgba(92, 8, 57, 0.15);
-    transition: box-shadow 0.3s ease-in-out;
+.btn-custom {
+  color: rgb(92, 8, 57);
+  border-radius: 50rem;
+  background: rgb(216, 105, 160);
+  -webkit-border-radius: 50rem;
+  -moz-border-radius: 50rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 1rem 1.5rem;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 0.1rem 0.2rem rgba(92, 8, 57, 0.15);
+  transition: box-shadow 0.3s ease-in-out;
 }
 
-.btn-custom:hover{
-    color: rgb(92, 8, 57);
-    border-radius: 500px;
-    background: rgb(216, 105, 160);
-    border: 2px solid rgb(92, 8, 57);
-    -webkit-border-radius:500px;
-    -moz-border-radius:500px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    padding: 10px 15px;
-    box-shadow: 12px 15px 20px rgba(92, 8, 57, 0.5);
-    transition:all 0.3s ease;
+.btn-custom:hover {
+  color: rgb(92, 8, 57);
+  border-radius: 50rem;
+  background: rgb(216, 105, 160);
+  border: 0.2rem solid rgb(92, 8, 57);
+  -webkit-border-radius: 50rem;
+  -moz-border-radius: 50rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 1rem 1.5rem;
+  box-shadow: 1.2rem 1.5rem 2rem rgba(92, 8, 57, 0.5);
+  transition: all 0.3s ease;
 }
 
 /*Rodapé*/
 
-footer{
-    background:rgb(253, 137, 195);
-    padding: 50px 0 20px 0;
+footer {
+  background: rgb(253, 137, 195);
+  padding: 5rem 0 2rem 0;
 }
 
-footer h4{
-    color: black;
-    text-shadow:2px 2px 5px rgba(92, 8, 57, 0.5);
-    font-size: 0.8em;
+footer h4 {
+  color: black;
+  text-shadow: 0.2rem 0.2rem 0.5rem rgba(92, 8, 57, 0.5);
+  font-size: 1rem;
 }
 
-footer .navbar-nav a{
-    text-decoration: none;
-    font-size: 0.8em;
-    color: rgb(92, 8, 57);
+footer .navbar-nav a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: rgb(92, 8, 57);
 }
 
-footer .navbar-nav a:hover{
-    text-decoration: none;
-    font-size: 1em;
-    color: rgb(119, 9, 73);
-    text-shadow: 2px 2px 5px rgba(92, 8, 57, 0.7);
-    transition: all 0.3s ease;
+footer .navbar-nav a:hover {
+  text-decoration: none;
+  font-size: 1rem;
+  color: rgb(119, 9, 73);
+  text-shadow: 0.2rem 0.2rem 0.5rem rgba(92, 8, 57, 0.7);
+  transition: all 0.3s ease;
 }
 
-footer .rede-social a{
-    text-decoration: none;
-    font-size: 0.8em;
-    color: rgb(92, 8, 57);
+footer .rede-social a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: rgb(92, 8, 57);
 }
 
-footer .rede-social a:hover{
-    text-decoration: none;
-    font-size: 1em;
-    color: rgb(119, 9, 73);
-    text-shadow: 2px 2px 5px rgba(92, 8, 57, 0.7);
-    transition: all 0.3s ease;
+footer .rede-social a:hover {
+  text-decoration: none;
+  font-size: 1rem;
+  color: rgb(119, 9, 73);
+  text-shadow: 0.2rem 0.2rem 0.5rem rgba(92, 8, 57, 0.7);
+  transition: all 0.3s ease;
 }
 
-footer ul{
-    list-style: none;
+footer ul {
+  list-style: none;
 }
 
-footer ul li{
-    float: right;
-    margin: 0 10px;
+footer ul li {
+  float: right;
+  margin: 0 1rem;
 }
 
-footer ul i{
-    font-size: 80px;
-    color: rgb(92, 8, 57);
+footer ul i {
+  font-size: 8rem;
+  color: rgb(92, 8, 57);
 }
 
 /*Media-queries*/
 
 /* Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+}
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
 
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
 
 /* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+}
