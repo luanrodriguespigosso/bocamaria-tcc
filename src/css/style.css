@@ -16,6 +16,10 @@
   --text-link: hsl(255, 255%, 255%);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -30,7 +34,7 @@ body {
   font-family: var(--ff-primary);
   font-weight: normal;
   font-size: 1.6rem;
-  background: var(--bg-primary);
+  /* background: var(--bg-primary); */
 }
 
 header {
@@ -62,14 +66,8 @@ header {
   color: var(--btn--primary);
 }
 
-.carousel-inner img {
-  width: 100%;
-  height: auto;
-}
-/*capa*/
-
-.capa {
-  text-align: center;
+#home {
+  height: calc(100vh - 8.2rem);
 }
 
 /*Tipografia*/
