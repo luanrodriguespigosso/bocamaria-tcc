@@ -10,10 +10,12 @@
   font-size: 62.5%;
 
   --ff-primary: "Roboto", sans-serif;
-  --bg-primary: hsl(330, 100%, 86%);
-  --bg-secondary: hsl(330, 97%, 76%);
-  --btn--primary: hsl(325, 84%, 20%);
-  --text-link: hsl(255, 255%, 255%);
+  --button-primary: hsl(330, 97%, 76%);
+  --button-secondary: hsl(330, 100%, 86%);
+  --bg-secondary: hsl(326, 81%, 92%);
+  --bg-primary: hsl(0, 0%, 97%);
+  --title-color: hsl(325, 84%, 20%);
+  --text-colors: hsl(0, 0%, 7%);
 }
 
 html {
@@ -26,15 +28,21 @@ img {
 }
 
 a {
-  list-style: none;
-  color: var(--text-link);
+  text-decoration: none;
+  color: var(--text-colors);
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 5.2rem;
+  color: var(--title-color);
 }
 
 body {
   font-family: var(--ff-primary);
   font-weight: normal;
   font-size: 1.6rem;
-  /* background: var(--bg-primary); */
+  background: var(--bg-primary);
 }
 
 header {
@@ -59,36 +67,61 @@ header {
 .nav-item a {
   font-weight: 500;
   font-size: 1.8rem;
-  color: var(--text-link);
 }
 
 .nav-link:hover {
-  color: var(--btn--primary);
+  filter: brightness(10);
 }
 
 #home {
   height: calc(100vh - 8.2rem);
 }
 
-/*Tipografia*/
-
-h1 {
-  font-weight: 900;
-  letter-spacing: -0.05rem;
-  margin-bottom: 5rem;
-  color: hsl(325, 84%, 20%);
-  font-size: 6.4rem;
+.home-content {
+  display: flex;
+  align-content: center;
+  align-items: center;
 }
 
-h6 {
-  color: rgb(216, 105, 160);
-  font-weight: 900;
-  font-size: 2rem;
-  letter-spacing: -0.04rem;
+.home-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-right: 12rem;
+}
+
+.home-title p {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.home-title button {
+  display: flex;
+  justify-content: center;
+  width: 20rem;
+  background: var(--button-primary);
+  border: none;
+  border-radius: 4rem;
+  padding: 1.8rem 3rem;
+}
+
+.home-title button a {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--bg-primary);
+  text-transform: uppercase;
+}
+
+.home-img {
+  max-width: 50rem;
+  margin-top: 10rem;
 }
 
 /*Estrutura de conteúdos*/
-
 #products {
   background: white;
   padding: 2rem;
