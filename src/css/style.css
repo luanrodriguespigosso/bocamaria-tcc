@@ -32,7 +32,12 @@ a {
   color: var(--text-color);
 }
 
-img {
+p {
+  margin: 0;
+}
+
+img,
+figure {
   width: 100%;
   height: auto;
 }
@@ -41,7 +46,7 @@ body {
   font-family: var(--ff-primary);
   font-weight: normal;
   font-size: 1.6rem;
-  background: var(--bg-primary);
+  background: var(--bg-secondary);
 }
 
 header {
@@ -73,10 +78,10 @@ header {
   filter: brightness(0.9);
 }
 
-#home {
+/* #home {
   height: calc(100vh - 8.2rem);
   background: var(--bg-secondary);
-}
+} */
 
 .home-content {
   display: flex;
@@ -120,7 +125,7 @@ header {
   font-size: 1.8rem;
   font-weight: 700;
   color: var(--bg-primary);
-  padding: 1.5rem 4rem;
+  padding: 1.5rem 3.2rem;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -172,6 +177,98 @@ header {
 .home-banner span {
   font-weight: 500;
   text-transform: uppercase;
+}
+
+#product {
+  margin: 30rem 0;
+}
+
+.product-title h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--title-color);
+  text-align: left;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card {
+  max-width: 27rem;
+  height: auto;
+  text-align: center;
+  background: var(--bg-third);
+  border: 0.2rem solid var(--bg-third);
+  border-radius: 0.7rem;
+  margin-top: 3rem;
+}
+
+.card-img {
+  width: 100%;
+  height: 30rem;
+  background: var(--bg-primary);
+  border-radius: 0.7rem;
+  margin: 0 auto;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.card-body h4 {
+  color: var(--title-color);
+}
+
+.card-text {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.card-button {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.card-button button {
+  height: 4rem;
+  background: var(--button-primary);
+  border: 0.1rem solid var(--button-primary);
+  border-radius: 0.7rem;
+}
+
+.card-button button:hover {
+  color: var(--button-primary);
+  background: var(--bg-third);
+}
+
+.card-button a {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--bg-primary);
+  cursor: pointer;
+  padding: 1rem 2rem;
+}
+
+.card-button a:hover {
+  color: var(--button-primary);
+}
+
+.card-price {
+  font-size: 1.8rem;
+  font-weight: 700;
 }
 
 /* #products {
