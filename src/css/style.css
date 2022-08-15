@@ -1,9 +1,13 @@
 /*layout*/
 
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -12,30 +16,25 @@
   --ff-primary: "Roboto", sans-serif;
   --button-primary: hsl(330, 97%, 76%);
   --button-secondary: hsl(330, 100%, 86%);
-  --bg-secondary: hsl(326, 81%, 92%);
+  --bg-third: hsl(326, 81%, 92%);
+  --bg-secondary: hsl(326, 80%, 96%);
   --bg-primary: hsl(0, 0%, 97%);
   --title-color: hsl(325, 84%, 20%);
-  --text-colors: hsl(0, 0%, 7%);
+  --text-color: hsl(0, 0%, 7%);
 }
 
-html {
-  scroll-behavior: smooth;
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  color: var(--text-color);
 }
 
 img {
   width: 100%;
   height: auto;
-}
-
-a {
-  text-decoration: none;
-  color: var(--text-colors);
-}
-
-h1 {
-  font-weight: bold;
-  font-size: 5.2rem;
-  color: var(--title-color);
 }
 
 body {
@@ -67,14 +66,16 @@ header {
 .nav-item a {
   font-weight: 500;
   font-size: 1.8rem;
+  color: var(--button-primary);
 }
 
 .nav-link:hover {
-  filter: brightness(10);
+  filter: brightness(0.9);
 }
 
 #home {
   height: calc(100vh - 8.2rem);
+  background: var(--bg-secondary);
 }
 
 .home-content {
@@ -91,6 +92,12 @@ header {
   margin-right: 12rem;
 }
 
+.home-title h1 {
+  font-weight: bold;
+  font-size: 5.2rem;
+  color: var(--title-color);
+}
+
 .home-title p {
   font-size: 1.8rem;
   font-weight: 400;
@@ -101,19 +108,30 @@ header {
   justify-content: center;
   width: 20rem;
   background: var(--button-primary);
-  border: none;
-  border-radius: 4rem;
-  padding: 1.8rem 3rem;
+  border: 0.1rem solid var(--button-primary);
+  border-radius: 0.7rem;
 }
 
-.home-title button a {
+.home-title a {
   display: flex;
+  align-content: center;
   align-items: center;
   gap: 1.4rem;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 700;
   color: var(--bg-primary);
+  padding: 1.5rem 4rem;
   text-transform: uppercase;
+  text-decoration: none;
+}
+
+.home-title button:hover {
+  border: 0.1rem solid var(--button-primary);
+  background: var(--bg-secondary);
+}
+
+.home-title a:hover {
+  color: var(--button-primary);
 }
 
 .home-img {
@@ -121,8 +139,42 @@ header {
   margin-top: 10rem;
 }
 
-/*Estrutura de conteúdos*/
-#products {
+.home-banner {
+  width: 100%;
+  max-width: 111rem;
+  height: 20rem;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background: var(--bg-third);
+  border: 0.1rem solid var(--bg-third);
+  border-radius: 0.7rem;
+  padding: 1rem 5rem 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.home-banner i {
+  font-size: 4.8rem;
+  color: var(--title-color);
+}
+
+.home-banner p {
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  color: var(--title-color);
+  margin-top: 2rem;
+}
+
+.home-banner span {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+/* #products {
   background: white;
   padding: 2rem;
   margin: 0 8rem;
@@ -165,8 +217,6 @@ header {
   text-shadow: 0.2rem 0.2rem 0.5rem rgb(92, 8, 57);
 }
 
-/*Formulário*/
-
 #form {
   padding: 2rem;
   margin: 8rem;
@@ -202,8 +252,6 @@ header {
   box-shadow: 1.2rem 1.5rem 2rem rgba(92, 8, 57, 0.5);
   transition: all 0.3s ease;
 }
-
-/*Rodapé*/
 
 footer {
   background: rgb(253, 137, 195);
@@ -256,7 +304,7 @@ footer ul li {
 footer ul i {
   font-size: 8rem;
   color: rgb(92, 8, 57);
-}
+} */
 
 /*Media-queries*/
 
