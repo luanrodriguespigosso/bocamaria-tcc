@@ -195,7 +195,7 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .card {
@@ -269,6 +269,19 @@ header {
 .card-price {
   font-size: 1.8rem;
   font-weight: 700;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--button-primary);
+}
+
+.swiper-pagination {
+  position: relative;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--button-primary);
 }
 
 /* #products {
